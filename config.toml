@@ -3,6 +3,9 @@ title = "Prologue"
 baseurl = "localhost:1313"
 theme = "febin"
 
+[context.production.environment]
+  HUGO_VERSION = "0.29"
+
 [params]
   name = "Prajwal Xavier"
   description = "Designer!!!"
